@@ -158,8 +158,8 @@ class Dadata
 header('Content-Type: text/html; charset=utf-8');
 
 // Мои API-ключи от DaData (токен и секретный ключ)
-$token = "3a587b20c866b5bb14c227e7dc974be108e6d6e3";
-$secret = "089178424a81e7144b6ba64daeae20d48ce9be58";
+$token = "3a587b20c866b5bb14c227e7dc974be108......";
+$secret = "089178424a81e7144b6ba64daeae20d48.......";
 
 // Проверяем, была ли отправлена форма методом POST
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit'])) {
