@@ -4,7 +4,7 @@ $(document).ready(function () {
       query: $("#ip").val(),
     };
 	var url = "https://suggestions.dadata.ru/suggestions/api/4_1/rs/iplocate/address?ip=";
-	var token = "477398970ae9180bd4fb2ae061da2b88ca1a9540";
+	var token = "477398970ae9180bd4fb2ae061da2b88ca1a.....";
 
     $.ajax({
       type: "GET",
